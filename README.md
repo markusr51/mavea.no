@@ -1,11 +1,18 @@
-# MAVEA AS professional website – flat structure
+# MAVEA AS professional website – version 4
 
-Denne pakken er laget slik at alle filer kan lastes opp direkte i roten av `main`-branchen på GitHub.
+Komplett GitHub Pages-pakke med flat filstruktur.
 
-Det skal ikke opprettes noen `assets`-mappe.
+Forbedringer i denne versjonen:
+- Større og tydeligere logo.
+- Slankere toppmeny.
+- Mer luft i hovedseksjonen.
+- Diskret grafisk bakgrunnsmønster.
+- Egne ikoner for hovedområdene.
+- Bedre visuell rytme og mer eksklusivt uttrykk.
+- Fortsatt støtte for tastatur, VoiceOver og redusert bevegelse.
 
-Last opp alle filene direkte sammen med `index.html`.
-
-Viktig: GitHub Pages må være satt til:
+## Publisering
+Last opp alle filene direkte i roten av `main`-branchen.
+GitHub Pages:
 - Branch: `main`
 - Folder: `/ (root)`

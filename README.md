@@ -1,18 +1,17 @@
-# MAVEA AS professional website – version 4
+# MAVEA AS website – version 5
 
-Komplett GitHub Pages-pakke med flat filstruktur.
+Full redesign for GitHub Pages.
 
-Forbedringer i denne versjonen:
-- Større og tydeligere logo.
-- Slankere toppmeny.
-- Mer luft i hovedseksjonen.
-- Diskret grafisk bakgrunnsmønster.
-- Egne ikoner for hovedområdene.
-- Bedre visuell rytme og mer eksklusivt uttrykk.
-- Fortsatt støtte for tastatur, VoiceOver og redusert bevegelse.
+Denne versjonen inkluderer:
+- Ny horisontal firmalogo og separat app-/favicon-logo.
+- Ny hero-illustrasjon.
+- Ny og mer detaljert Om oss-seksjon.
+- Formulert visjon og erfaringsgrunnlag.
+- Forbedret tjenesteoversikt.
+- Egen grafikk og kortdesign for Music VO, Nauti VO og Guide-dog Assist.
+- Forbedret produktside.
+- Fortsatt flat filstruktur: alle filer lastes direkte opp i roten av main-branchen.
 
-## Publisering
-Last opp alle filene direkte i roten av `main`-branchen.
 GitHub Pages:
-- Branch: `main`
-- Folder: `/ (root)`
+- Branch: main
+- Folder: / (root)

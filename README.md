@@ -1,22 +1,11 @@
-# MAVEA AS professional website
+# MAVEA AS professional website – flat structure
 
-Komplett statisk GitHub Pages-side.
+Denne pakken er laget slik at alle filer kan lastes opp direkte i roten av `main`-branchen på GitHub.
 
-## Filer
-- index.html
-- services.html
-- products.html
-- support.html
-- privacy.html
-- en.html
-- styles.css
-- script.js
-- assets/logo.svg
-- assets/favicon.svg
-- assets/og-image.svg
-- robots.txt
-- sitemap.xml
-- manifest.webmanifest
+Det skal ikke opprettes noen `assets`-mappe.
 
-## Publisering
-Last opp alt innholdet i roten av GitHub-repositoriet. `index.html` må ligge direkte i roten.
+Last opp alle filene direkte sammen med `index.html`.
+
+Viktig: GitHub Pages må være satt til:
+- Branch: `main`
+- Folder: `/ (root)`

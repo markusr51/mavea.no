@@ -239,3 +239,84 @@ linear-gradient(135deg,var(--surface),var(--bg));overflow:hidden}
   text-decoration-thickness:3px;
   text-underline-offset:6px;
 }
+
+/* Version 7 final polish */
+.skip-link{
+  position:fixed;
+  top:0;
+  left:1rem;
+  transform:translateY(-140%);
+  z-index:9999;
+  opacity:0;
+  pointer-events:none;
+}
+.skip-link:focus{
+  transform:translateY(1rem);
+  opacity:1;
+  pointer-events:auto;
+}
+
+.brand-lockup{
+  display:inline-flex;
+  align-items:center;
+  gap:.75rem;
+  min-width:max-content;
+  overflow:visible;
+}
+.brand-mark{
+  width:52px;
+  height:52px;
+  flex:0 0 52px;
+  display:block;
+}
+.brand-name{
+  font-size:1.12rem;
+  font-weight:900;
+  letter-spacing:.015em;
+  white-space:nowrap;
+  color:var(--text);
+}
+.logo-horizontal{
+  display:none;
+}
+
+.site-header .container{
+  overflow:visible;
+}
+.header-inner{
+  min-height:72px;
+}
+
+.hero-v5{
+  background:
+    radial-gradient(circle at 12% 4%,color-mix(in srgb,var(--accent) 24%,transparent),transparent 29rem),
+    radial-gradient(circle at 88% 16%,color-mix(in srgb,var(--primary) 10%,transparent),transparent 26rem),
+    linear-gradient(135deg,var(--surface),var(--bg));
+}
+.hero-v5-grid{
+  grid-template-columns:minmax(0,1.05fr) minmax(420px,.95fr);
+  gap:72px;
+}
+.hero-art{
+  padding-left:12px;
+}
+
+@media(max-width:980px){
+  .hero-v5-grid{
+    grid-template-columns:1fr;
+    gap:42px;
+  }
+  .hero-art{
+    padding-left:0;
+  }
+}
+@media(max-width:880px){
+  .brand-mark{
+    width:48px;
+    height:48px;
+    flex-basis:48px;
+  }
+  .brand-name{
+    font-size:1.02rem;
+  }
+}

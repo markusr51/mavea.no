@@ -1,17 +1,15 @@
-# MAVEA AS website – version 5
+# MAVEA AS website – version 6
 
-Full redesign for GitHub Pages.
-
-Denne versjonen inkluderer:
-- Ny horisontal firmalogo og separat app-/favicon-logo.
-- Ny hero-illustrasjon.
-- Ny og mer detaljert Om oss-seksjon.
-- Formulert visjon og erfaringsgrunnlag.
-- Forbedret tjenesteoversikt.
-- Egen grafikk og kortdesign for Music VO, Nauti VO og Guide-dog Assist.
-- Forbedret produktside.
-- Fortsatt flat filstruktur: alle filer lastes direkte opp i roten av main-branchen.
+Finpussrunde med:
+- Ny og tydeligere hovedoverskrift.
+- Beholdt «Teknologi uten barrierer» som slagord.
+- Oppgradert hero-illustrasjon med skjerm, mobil, lyd, navigasjon og punktskrift.
+- Mer menneskelig og konkret introduksjon.
+- Diskrete animasjoner og hover-effekter.
+- Automatisk markering av aktiv menyside.
+- Respekt for `prefers-reduced-motion`.
+- Flat filstruktur for direkte opplasting til roten av `main`.
 
 GitHub Pages:
-- Branch: main
-- Folder: / (root)
+- Branch: `main`
+- Folder: `/ (root)`
